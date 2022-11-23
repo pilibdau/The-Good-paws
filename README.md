@@ -7,6 +7,7 @@ the purpose of this project is to practice and showcase
 - CSS
 - Sass
 - Web Design
+- Deploying sites on Netlify
 
 ### <font color="aquamarine">Design promp</font>
 <img src="01-design prompt.png" width="400px">
