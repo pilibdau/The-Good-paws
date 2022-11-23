@@ -11,3 +11,9 @@ the purpose of this project is to practice and showcase
 
 ### <font color="aquamarine">Design prompt</font>
 <img src="01-design prompt.png" width="400px">
+
+
+### <font color="aquamarine">Branding</font>
+- The good paws is an organic pet food brand that specialized in dog food.
+- The good paws products focus on providing the right nutrition for dogs of different age group
+- The good paws is PNW based and uses locally sources ingredients [salmon, berries, oregon cheese, idaho potato]
