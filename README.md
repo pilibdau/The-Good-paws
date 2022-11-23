@@ -20,10 +20,13 @@ the purpose of this project is to practice and showcase
 
 ### <font color="aquamarine">What should be featured on the brand's site</font>
 1. short summary about the brand
-2. partners and ingredient suppliers
-3. different kinds of dog foods that the brand offers
+2. different kinds of dog foods that the brand offers
+3. link to the brand's amazon store
 4. Where can the buyers get the products (like petco, petsmart, whole foods, local pet hospital)
-5. link to the brand's amazon store
 6. customers' testimonials of how the product improve their dogs' health
-7. brand's link to social medias such as instagram, facebook page
-8. legal and copyright text, contact us, come work with us and other general footer
+7. partners and ingredient suppliers
+8. brand's link to social medias such as instagram, facebook page
+9. legal and copyright text, contact us, come work with us and other general footer
+
+Wireframe
+https://www.figma.com/file/zn3oFspDtIrm2f09I3gpE7/The-Good-Paws-wireframes?node-id=0%3A1&t=3iTIFhZ9a96Yw86W-1
