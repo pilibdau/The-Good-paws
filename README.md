@@ -20,7 +20,7 @@ the purpose of this project is to practice and showcase
 
 ### <font color="aquamarine">What should be featured on the brand's site</font>
 1. short summary about the brand
-2. partners and
+2. partners and ingredient suppliers
 3. different kinds of dog foods that the brand offers
 4. Where can the buyers get the products (like petco, petsmart, whole foods, local pet hospital)
 5. link to the brand's amazon store
