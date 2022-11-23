@@ -9,5 +9,5 @@ the purpose of this project is to practice and showcase
 - Web Design
 - Deploying sites on Netlify
 
-### <font color="aquamarine">Design promp</font>
+### <font color="aquamarine">Design prompt</font>
 <img src="01-design prompt.png" width="400px">
