@@ -29,4 +29,4 @@ the purpose of this project is to practice and showcase
 9. legal and copyright text, contact us, come work with us and other general footer
 
 ### <font color="aquamarine">Wireframe</font>
-https://www.figma.com/proto/zn3oFspDtIrm2f09I3gpE7/The-Good-Paws-wireframes?node-id=10%3A58&scaling=scale-down&page-id=0%3A1
+https://www.figma.com/file/zn3oFspDtIrm2f09I3gpE7/The-Good-Paws-wireframes?node-id=0%3A1&t=MYFpq4SVhNrxMwWF-1
