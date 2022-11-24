@@ -30,3 +30,5 @@ the purpose of this project is to practice and showcase
 
 ### <font color="aquamarine">Wireframe</font>
 https://www.figma.com/file/zn3oFspDtIrm2f09I3gpE7/The-Good-Paws-wireframes?node-id=0%3A1&t=MYFpq4SVhNrxMwWF-1
+
+### <font color="aquamarine">Mockup</font>
