@@ -10,7 +10,7 @@ the purpose of this project is to practice and showcase
 - Deploying sites on Netlify
 
 ### <font color="aquamarine">Design prompt</font>
-<img src="01-design prompt.png" width="400px">
+<img src="./images/01-design%20prompt.png" width="400px">
 
 
 ### <font color="aquamarine">Branding</font>
