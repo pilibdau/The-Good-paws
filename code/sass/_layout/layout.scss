@@ -35,11 +35,17 @@ body {
 
     &__amazon--logo {
         width: 6rem;
+
+        @media only screen and (min-width: $bp-tablet){
+            width: 10rem;
+        }
     }
 }
 
 .bestsellers {
+
     text-align: center;
+    padding: 8vw;
 
     &__header {
         margin-top: 4rem;
@@ -196,7 +202,7 @@ body {
     grid-gap: 3rem;
     justify-items: center;
 
-    padding: 4rem 4rem 1rem 4rem;
+    padding:8vw 8vw 2vw 8vw;
 
     color: var(--white);
 
@@ -220,10 +226,18 @@ body {
 
     &__logo--vertical {
         width: 5rem;
+
+        @media only screen and (min-width: $bp-tablet){
+            width: 8rem;
+        }
     }
 
     &__logo--horizontal {
         height: 4rem;
+
+        @media only screen and (min-width: $bp-tablet){
+            height: 6rem;
+        }
     }
 }
 

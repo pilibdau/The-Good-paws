@@ -46,12 +46,18 @@ body {
 .heading-2 {
   font-size: 2.5rem;
   color: var(--blue); }
+  @media only screen and (min-width: 51.25em) {
+    .heading-2 {
+      font-size: 3rem; } }
 
 .heading-3 {
   font-family: var(--font-paragraph);
   text-transform: capitalize;
   font-weight: 600;
   font-size: 1.8rem; }
+  @media only screen and (min-width: 51.25em) {
+    .heading-3 {
+      font-size: 2rem; } }
 
 body {
   background-color: #F1F1F1; }
@@ -78,9 +84,13 @@ body {
     width: 60%; }
   .header__amazon--logo {
     width: 6rem; }
+    @media only screen and (min-width: 51.25em) {
+      .header__amazon--logo {
+        width: 10rem; } }
 
 .bestsellers {
-  text-align: center; }
+  text-align: center;
+  padding: 8vw; }
   .bestsellers__header {
     margin-top: 4rem; }
 
@@ -182,7 +192,7 @@ body {
   grid-template-rows: repeat(2, min-content) 1fr;
   grid-gap: 3rem;
   justify-items: center;
-  padding: 4rem 4rem 1rem 4rem;
+  padding: 8vw 8vw 2vw 8vw;
   color: var(--white); }
   .localsource__heading {
     margin-top: 8rem;
@@ -200,8 +210,14 @@ body {
     justify-content: space-between; }
   .localsource__logo--vertical {
     width: 5rem; }
+    @media only screen and (min-width: 51.25em) {
+      .localsource__logo--vertical {
+        width: 8rem; } }
   .localsource__logo--horizontal {
     height: 4rem; }
+    @media only screen and (min-width: 51.25em) {
+      .localsource__logo--horizontal {
+        height: 6rem; } }
 
 .connect {
   background-color: var(--green);
