@@ -151,7 +151,7 @@ body {
   left: -4rem; }
 
 .localsource {
-  background-image: linear-gradient(to right, rgba(50, 73, 50, 0.4), rgba(50, 73, 50, 0.4)), url("../../Images/farm.jpg");
+  background-image: linear-gradient(to right, rgba(2, 29, 60, 0.5), rgba(2, 29, 60, 0.5)), url("../../Images/farm.jpg");
   height: 85vh;
   width: 100vw;
   background-size: 110%;
@@ -186,7 +186,9 @@ body {
   text-align: center; }
   .connect__heading {
     color: var(--white);
-    margin: 2rem auto 3rem auto; }
+    margin: 2rem auto 3rem auto;
+    font-family: var(--font-header);
+    text-transform: uppercase; }
   .connect__logos {
     margin-bottom: 1rem;
     display: grid;
