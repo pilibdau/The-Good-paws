@@ -95,45 +95,46 @@ body {
   height: auto; }
 
 .testimonials {
-  background-color: var(--green-light); }
+  background-color: var(--green-light);
+  padding: 2rem; }
   .testimonials__heading {
-    padding: 2rem;
-    padding-top: 4rem;
-    text-align: center; }
+    padding: 2rem; }
 
 .customers {
   display: grid;
+  justify-items: center;
+  text-align: center;
   margin: 2rem 4rem; }
 
 .customer__images {
   width: 10rem;
   height: 10rem;
   overflow: hidden;
-  object-fit: cover;
   border-radius: 50%;
   display: block;
   position: relative; }
 
 .customer__image--vertical {
-  width: 100%;
+  width: 110%;
   height: auto;
   position: absolute; }
 
 .customer__image--horizontal {
-  height: 100%;
+  height: 120%;
   width: auto;
   position: absolute; }
 
 .customer__image--1 {
-  top: -2rem; }
+  top: -4rem;
+  left: -1rem; }
 
 .customer__image--2 {
-  width: 120%;
-  left: -2rem;
-  top: -2rem; }
+  width: 140%;
+  left: -4rem;
+  top: -4rem; }
 
 .customer__image--3 {
-  left: -2rem; }
+  left: -4rem; }
 
 .localsource {
   background-image: linear-gradient(to right, rgba(50, 73, 50, 0.4), rgba(50, 73, 50, 0.4)), url("../../Images/farm.jpg");
