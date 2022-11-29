@@ -17,6 +17,8 @@
 }
 
 .heading-3 {
-    @extend .heading;
+    font-family: var(--font-paragraph);
+    text-transform: capitalize;
+    font-weight: 600;
     font-size:1.8rem;
 }

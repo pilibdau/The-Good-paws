@@ -28,7 +28,7 @@ body {
   line-height: 1.5;
   color: var(--blue); }
 
-.heading, .heading-1, .heading-2, .heading-3, .footer__link:link, .footer__link:visited, .btn {
+.heading, .heading-1, .heading-2, .footer__link:link, .footer__link:visited, .btn {
   font-family: var(--font-header);
   font-weight: 700;
   text-transform: uppercase; }
@@ -42,6 +42,9 @@ body {
   color: var(--blue); }
 
 .heading-3 {
+  font-family: var(--font-paragraph);
+  text-transform: capitalize;
+  font-weight: 600;
   font-size: 1.8rem; }
 
 body {
@@ -96,12 +99,12 @@ body {
   .products__details .btn {
     width: 100%; }
   .products__details--logo {
-    width: 15vw;
+    width: 6rem;
     position: relative;
     top: -0.2rem; }
 
 .product__details--image {
-  width: 25vw;
+  width: 8rem;
   height: auto; }
 
 .testimonials {
@@ -175,7 +178,7 @@ body {
     align-content: flex-end;
     justify-items: center; }
     .localsource__logos img {
-      width: 15vw; }
+      width: 5rem; }
 
 .connect {
   background-color: var(--green);
@@ -191,7 +194,7 @@ body {
     justify-content: space-evenly;
     justify-items: center; }
     .connect__logos img {
-      width: 20vw; }
+      width: 8rem; }
 
 .footer__links {
   display: flex;
