@@ -17,6 +17,26 @@ body {
     grid-template-rows: 1fr;
     justify-items: center;
 
+    @media screen and (min-width: $bp-desktop) {
+        grid-template-columns: 30vw 1fr;
+        justify-items: left;
+
+        &__logo {
+            grid-column: 1/2 ;
+        }
+
+        &__text {
+            grid-column: 1/2 ;
+        }
+
+        &__cta-text {
+            grid-column: 1/2 ;
+        }
+
+        &__btn {
+            grid-column: 1/2 ;
+        }
+    }
 
     &__text {
         font-style: italic;
@@ -46,6 +66,7 @@ body {
 
     text-align: center;
     padding: 8vw;
+    padding-bottom: 10vw;
 
     &__header {
         margin-top: 4rem;
@@ -81,13 +102,20 @@ body {
 
 .products__details {
     display: grid;
+
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+
     align-items: end;
 
-
-    &>* {
-        padding: 1rem 1.5rem;
+    @media screen and (min-width: $bp-desktop) {
+        font-size: 1.6rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 8rem;
+        align-items: flex-end;
+        margin-top: 8rem;
     }
+
 
     &--text {
         text-align:left;

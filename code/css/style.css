@@ -30,6 +30,9 @@ body {
   @media only screen and (min-width: 51.25em) {
     body {
       font-size: 2rem; } }
+  @media only screen and (min-width: 75em) {
+    body {
+      font-size: 2.8rem; } }
 
 .heading, .heading-1, .heading-2, .customer__name, .footer__link:link, .footer__link:visited, .btn {
   font-family: var(--font-header);
@@ -42,6 +45,9 @@ body {
   @media only screen and (min-width: 51.25em) {
     .heading-1 {
       font-size: 6rem; } }
+  @media only screen and (min-width: 75em) {
+    .heading-1 {
+      font-size: 8rem; } }
 
 .heading-2 {
   font-size: 2.5rem;
@@ -49,6 +55,9 @@ body {
   @media only screen and (min-width: 51.25em) {
     .heading-2 {
       font-size: 3rem; } }
+  @media only screen and (min-width: 75em) {
+    .heading-2 {
+      font-size: 4.5rem; } }
 
 .heading-3 {
   font-family: var(--font-paragraph);
@@ -73,6 +82,18 @@ body {
   display: grid;
   grid-template-rows: 1fr;
   justify-items: center; }
+  @media screen and (min-width: 75em) {
+    .header {
+      grid-template-columns: 30vw 1fr;
+      justify-items: left; }
+      .header__logo {
+        grid-column: 1/2; }
+      .header__text {
+        grid-column: 1/2; }
+      .header__cta-text {
+        grid-column: 1/2; }
+      .header__btn {
+        grid-column: 1/2; } }
   .header__text {
     font-style: italic; }
   .header__cta-text {
@@ -90,7 +111,8 @@ body {
 
 .bestsellers {
   text-align: center;
-  padding: 8vw; }
+  padding: 8vw;
+  padding-bottom: 10vw; }
   .bestsellers__header {
     margin-top: 4rem; }
 
@@ -114,9 +136,15 @@ body {
 .products__details {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
   align-items: end; }
-  .products__details > * {
-    padding: 1rem 1.5rem; }
+  @media screen and (min-width: 75em) {
+    .products__details {
+      font-size: 1.6rem;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 8rem;
+      align-items: flex-end;
+      margin-top: 8rem; } }
   .products__details--text {
     text-align: left;
     margin-bottom: 1rem;
