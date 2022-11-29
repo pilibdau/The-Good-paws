@@ -34,7 +34,7 @@ body {
   text-transform: uppercase; }
 
 .heading-1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--white); }
 
 .heading-2 {
@@ -52,7 +52,14 @@ body {
   height: 90vh;
   width: 100vw;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  color: var(--white);
+  padding: 5rem 5rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-items: center; }
+  .header__text {
+    font-style: italic; }
 
 .bestsellers {
   text-align: center; }

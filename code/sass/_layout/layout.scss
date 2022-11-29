@@ -8,6 +8,18 @@ body {
     width: 100vw;
     background-size: cover;
     background-position: center;
+
+    color: var(--white);
+    padding: 5rem 5rem;
+
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+
+
+    &__text {
+        font-style: italic;
+    }
 }
 
 .bestsellers {
