@@ -25,7 +25,7 @@ html {
 body {
   font-family: var(--font-paragraph); }
 
-.heading, .footer__link:link, .footer__link:visited {
+.heading, .footer__link:link, .footer__link:visited, .btn {
   font-family: var(--font-header);
   font-weight: 700;
   text-transform: uppercase; }
@@ -49,6 +49,11 @@ body {
   background-size: cover;
   background-position: center; }
 
+.bestsellers {
+  text-align: center; }
+  .bestsellers__header {
+    margin-top: 4rem; }
+
 .products__available-text {
   padding: 3vh;
   text-align: center; }
@@ -68,10 +73,25 @@ body {
 
 .products__details {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(2, 1fr);
+  align-items: end; }
+  .products__details > * {
+    padding: 1rem 1.5rem; }
+  .products__details--text {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    line-height: 1.5; }
+  .products__details .btn {
+    width: 100%; }
+  .products__details--logo {
+    width: 15vw;
+    position: relative;
+    top: -0.2rem; }
 
 .product__details--image {
-  width: 35vw;
+  width: 25vw;
   height: auto; }
 
 .testimonials {
@@ -149,4 +169,17 @@ body {
 
 .btn {
   background-color: #FDA804;
-  border: none; }
+  border: none;
+  padding: 1rem;
+  font-weight: 300; }
+  .btn :link, .btn :visited {
+    text-decoration: none;
+    color: var(--white); }
+  .btn img {
+    margin-top: 1rem; }
+  .btn--grid {
+    display: grid;
+    grid-template-columns: max-content min-content;
+    grid-gap: 0.5rem;
+    align-items: center;
+    justify-content: center; }

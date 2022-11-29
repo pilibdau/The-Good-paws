@@ -1,4 +1,26 @@
 .btn {
     background-color: #FDA804;
     border: none;
+
+    padding: 1rem;
+
+    @extend .heading;
+    font-weight: 300;
+
+    :link,:visited {
+        text-decoration: none;
+        color: var(--white);
+    }
+
+    img {
+        margin-top: 1rem;
+    }
+
+    &--grid {
+        display: grid;
+        grid-template-columns: max-content min-content;
+        grid-gap:0.5rem;
+        align-items: center;
+        justify-content: center;
+    }
 }

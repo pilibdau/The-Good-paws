@@ -10,6 +10,14 @@ body {
     background-position: center;
 }
 
+.bestsellers {
+    text-align: center;
+
+    &__header {
+        margin-top: 4rem;
+    }
+}
+
 .products {
 
     &__available {
@@ -40,12 +48,36 @@ body {
 .products__details {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: end;
+
+
+    &>* {
+        padding: 1rem 1.5rem;
+    }
+
+    &--text {
+        text-align:left;
+        margin-bottom: 1rem;
+        font-size: 1.4rem;
+        padding: 1rem 0;
+        line-height: 1.5;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    &--logo {
+        width: 15vw;
+        position: relative;
+        top: -0.2rem;
+    }
 }
 
 .product {
 
     &__details--image {
-        width: 35vw;
+        width: 25vw;
         height: auto;
     }
 }
@@ -59,7 +91,7 @@ body {
         width: 10rem;
         height: 10rem;
         overflow: hidden;
-        object-fit:cover;
+        object-fit: cover;
         border-radius: 50%;
         display: block;
         position: relative;
@@ -74,8 +106,8 @@ body {
         }
 
         &--horizontal {
-            height:100%;
-            width:auto;
+            height: 100%;
+            width: auto;
             position: absolute;
         }
 
