@@ -149,10 +149,31 @@ body {
 
 .localsource {
   background-image: linear-gradient(to right, rgba(50, 73, 50, 0.4), rgba(50, 73, 50, 0.4)), url("../../Images/farm.jpg");
-  height: 80vh;
+  height: 85vh;
   width: 100vw;
-  background-size: cover;
-  background-position: center; }
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr 1fr min-content;
+  justify-items: center;
+  padding: 4rem 4rem 2rem 4rem;
+  color: var(--white); }
+  .localsource__heading {
+    margin-top: 10rem;
+    color: var(--white); }
+  .localsource__logos {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    grid-gap: 2rem;
+    background-color: transparent;
+    align-items: center;
+    justify-items: center; }
+    .localsource__logos img {
+      width: 15vw; }
 
 .connect {
   background-color: var(--green);
