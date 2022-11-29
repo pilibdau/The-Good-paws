@@ -28,7 +28,7 @@ body {
   line-height: 1.5;
   color: var(--blue); }
 
-.heading, .heading-1, .heading-2, .footer__link:link, .footer__link:visited, .btn {
+.heading, .heading-1, .heading-2, .customer__name, .footer__link:link, .footer__link:visited, .btn {
   font-family: var(--font-header);
   font-weight: 700;
   text-transform: uppercase; }
@@ -63,6 +63,15 @@ body {
   justify-items: center; }
   .header__text {
     font-style: italic; }
+  .header__cta-text {
+    font-family: var(--font-header);
+    font-weight: 300;
+    margin: 1rem;
+    text-transform: uppercase; }
+  .header__btn {
+    width: 60%; }
+  .header__amazon--logo {
+    width: 6rem; }
 
 .bestsellers {
   text-align: center; }
@@ -109,13 +118,12 @@ body {
 
 .testimonials {
   background-color: var(--green-light);
-  padding: 2rem;
+  padding: 3rem;
   text-align: center; }
-  .testimonials__heading {
-    padding: 2rem; }
 
 .customers {
   display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
   justify-items: center;
   text-align: left;
   margin: 2rem 4rem; }
@@ -125,8 +133,9 @@ body {
   height: 10rem;
   overflow: hidden;
   border-radius: 50%;
+  position: relative;
   display: block;
-  position: relative; }
+  margin: 2rem auto; }
 
 .customer__image--vertical {
   width: 110%;
@@ -149,6 +158,10 @@ body {
 
 .customer__image--3 {
   left: -4rem; }
+
+.customer__text {
+  margin-bottom: 2rem;
+  font-style: italic; }
 
 .localsource {
   background-image: linear-gradient(to right, rgba(2, 29, 60, 0.5), rgba(2, 29, 60, 0.5)), url("../../Images/farm.jpg");
@@ -197,6 +210,9 @@ body {
     justify-items: center; }
     .connect__logos img {
       width: 8rem; }
+  .connect__logo--3 {
+    position: relative;
+    top: -0.3rem; }
 
 .footer__links {
   display: flex;
