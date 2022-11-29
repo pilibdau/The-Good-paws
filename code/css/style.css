@@ -156,7 +156,8 @@ body {
   background-repeat: no-repeat;
   position: relative;
   display: grid;
-  grid-template-rows: 1fr 1fr min-content;
+  grid-template-rows: repeat(2, min-content) 1fr;
+  grid-gap: 1rem;
   justify-items: center;
   padding: 4rem 4rem 2rem 4rem;
   color: var(--white); }
@@ -171,6 +172,7 @@ body {
     grid-gap: 2rem;
     background-color: transparent;
     align-items: center;
+    align-content: flex-end;
     justify-items: center; }
     .localsource__logos img {
       width: 15vw; }
