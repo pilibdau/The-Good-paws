@@ -37,13 +37,22 @@ body {
     }
 }
 
-.bestsellers {}
+.products__details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.product {
+
+    &__details--image {
+        width: 35vw;
+        height: auto;
+    }
+}
 
 .testimonials {
     background-color: var(--green-light);
 }
-
-.customers {}
 
 .customer {
     &__images {
@@ -52,10 +61,104 @@ body {
         overflow: hidden;
         object-fit:cover;
         border-radius: 50%;
+        display: block;
+        position: relative;
     }
 
     &__image {
-        height: 100%;
-        width: auto;
+
+        &--vertical {
+            width: 100%;
+            height: auto;
+            position: absolute;
+        }
+
+        &--horizontal {
+            height:100%;
+            width:auto;
+            position: absolute;
+        }
+
+        &--1 {
+            top: -2rem;
+        }
+
+        &--2 {
+            width: 120%;
+            left: -2rem;
+            top: -2rem;
+        }
+
+        &--3 {
+            left: -2rem;
+        }
     }
+
+}
+
+.localsource {
+    background-image: linear-gradient(to right, rgba(#324932, 0.4), rgba(#324932, 0.4)), url("../../Images/farm.jpg");
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.connect {
+
+    background-color: var(--green);
+    padding: 1rem;
+    text-align: center;
+
+    &__heading {
+        color: var(--white);
+        margin: 2rem auto 3rem auto;
+    }
+
+    &__logos {
+
+        margin-bottom: 1rem;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-evenly;
+        justify-items: center;
+
+
+
+        img {
+            width: 15vw;
+        }
+    }
+}
+
+.footer {
+
+    &__links {
+
+        display: flex;
+        justify-content: space-around;
+
+        padding: 3rem;
+        list-style-type: none;
+        font-size: 1.6rem;
+    }
+
+
+    &__link:link,
+    &__link:visited {
+        @extend .heading;
+        color: var(--green);
+
+        text-decoration: none;
+    }
+
+    p {
+        background-color: var(--green-light);
+        padding: 2rem 6rem;
+
+        text-align: center;
+        color: var(--green);
+    }
+
 }

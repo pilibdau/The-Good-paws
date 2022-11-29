@@ -25,7 +25,7 @@ html {
 body {
   font-family: var(--font-paragraph); }
 
-.heading {
+.heading, .footer__link:link, .footer__link:visited {
   font-family: var(--font-header);
   font-weight: 700;
   text-transform: uppercase; }
@@ -34,10 +34,10 @@ body {
   font-size: 4rem; }
 
 .heading-2 {
-  font-size: 3rem; }
+  font-size: 2.5rem; }
 
 .heading-3 {
-  font-size: 2.5rem; }
+  font-size: 2rem; }
 
 body {
   background-color: #F1F1F1; }
@@ -66,6 +66,14 @@ body {
   height: 3vh;
   width: auto; }
 
+.products__details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+.product__details--image {
+  width: 35vw;
+  height: auto; }
+
 .testimonials {
   background-color: var(--green-light); }
 
@@ -74,11 +82,70 @@ body {
   height: 10rem;
   overflow: hidden;
   object-fit: cover;
-  border-radius: 50%; }
+  border-radius: 50%;
+  display: block;
+  position: relative; }
 
-.customer__image {
+.customer__image--vertical {
+  width: 100%;
+  height: auto;
+  position: absolute; }
+
+.customer__image--horizontal {
   height: 100%;
-  width: auto; }
+  width: auto;
+  position: absolute; }
+
+.customer__image--1 {
+  top: -2rem; }
+
+.customer__image--2 {
+  width: 120%;
+  left: -2rem;
+  top: -2rem; }
+
+.customer__image--3 {
+  left: -2rem; }
+
+.localsource {
+  background-image: linear-gradient(to right, rgba(50, 73, 50, 0.4), rgba(50, 73, 50, 0.4)), url("../../Images/farm.jpg");
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center; }
+
+.connect {
+  background-color: var(--green);
+  padding: 1rem;
+  text-align: center; }
+  .connect__heading {
+    color: var(--white);
+    margin: 2rem auto 3rem auto; }
+  .connect__logos {
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    justify-items: center; }
+    .connect__logos img {
+      width: 15vw; }
+
+.footer__links {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+  list-style-type: none;
+  font-size: 1.6rem; }
+
+.footer__link:link, .footer__link:visited {
+  color: var(--green);
+  text-decoration: none; }
+
+.footer p {
+  background-color: var(--green-light);
+  padding: 2rem 6rem;
+  text-align: center;
+  color: var(--green); }
 
 .btn {
   background-color: #FDA804;
