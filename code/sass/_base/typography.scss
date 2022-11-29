@@ -8,6 +8,10 @@
     @extend .heading;
     font-size: 3rem;
     color: var(--white);
+
+    @media only screen and (min-width: $bp-tablet){
+        font-size: 6rem;
+    }
 }
 
 .heading-2 {

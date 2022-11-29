@@ -9,8 +9,9 @@ body {
     background-size: cover;
     background-position: center;
 
+
     color: var(--white);
-    padding: 5rem 5rem;
+    padding: 10vw;
 
     display: grid;
     grid-template-rows: 1fr;
@@ -24,7 +25,7 @@ body {
     &__cta-text {
         font-family: var(--font-header);
         font-weight: 300;
-        margin: 1rem;
+        margin: 2vw;
         text-transform: uppercase;
     }
 
@@ -110,17 +111,21 @@ body {
 
 .testimonials {
     background-color: var(--green-light);
-    padding: 3rem;
+    padding: 5vw;
     text-align: center;
 }
 
 .customers {
     display: grid;
     grid-template-rows: repeat(auto-fit, 1fr);
-    justify-items: center;
     text-align: left;
 
     margin: 2rem 4rem;
+
+    &>*:not(:last-child){
+        margin-bottom: 2rem;
+    }
+
 }
 
 .customer {
@@ -167,7 +172,7 @@ body {
     }
 
     &__text {
-        margin-bottom: 2rem;
+        margin-bottom: 0.5rem;
         font-style: italic;
     }
 
@@ -181,7 +186,7 @@ body {
     background-image: linear-gradient(to right, rgba(#021D3C, 0.5), rgba(#021D3C, 0.5)), url("../../Images/farm.jpg");
     height: 85vh;
     width: 100vw;
-    background-size: 110%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -203,17 +208,22 @@ body {
     &__logos {
         display: grid;
         width: 100%;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, min-content);
         padding: 0;
         grid-gap: 2rem;
         background-color: transparent;
         align-items: center;
         align-content:flex-end;
         justify-items: center;
+        justify-content: space-between;
+    }
 
-        img {
-            width: 5rem;
-        }
+    &__logo--vertical {
+        width: 5rem;
+    }
+
+    &__logo--horizontal {
+        height: 4rem;
     }
 }
 

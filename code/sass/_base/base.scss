@@ -10,9 +10,10 @@
     --white: #F1F1F1;
     --green-light: #DDE3DD;
     --blue: #021D3C;
-
-
 }
+
+//=========== screen breakpoints ============//
+$bp-tablet: 51.25em; // 820 / 16 = 51.25
 
 html {
     box-sizing: border-box;
@@ -33,4 +34,8 @@ body {
     font-size: 1.4rem;
     line-height: 1.5;
     color: var(--blue);
+
+    @media only screen and (min-width: $bp-tablet){
+        font-size: 2rem;
+    }
 }
