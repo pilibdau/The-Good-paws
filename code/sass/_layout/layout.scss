@@ -158,6 +158,11 @@ body {
 
     margin: 2rem 4rem;
 
+    @media screen and (min-width: $bp-desktop) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4rem;
+    }
+
     &>*:not(:last-child){
         margin-bottom: 2rem;
     }
