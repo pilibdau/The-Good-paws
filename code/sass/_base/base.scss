@@ -1,0 +1,32 @@
+:root {
+
+    //fonts
+    --font-paragraph : 'Cabin', sans-serif;
+    --font-header: 'Roboto Condensed', sans-serif;
+
+    //colors
+    --yellow: #FDA804;
+    --green: #324932;
+    --white: #F1F1F1;
+    --green-light: #DDE3DD;
+    --blue: #021D3C;
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;//1rem = 10px
+}
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--font-paragraph);
+}

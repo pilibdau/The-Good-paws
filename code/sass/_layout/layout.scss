@@ -1,0 +1,61 @@
+body {
+    background-color: #F1F1F1;
+}
+
+.header {
+    background-image: linear-gradient(to right, rgba(#324932, 0.4), rgba(#324932, 0.4)), url("../../Images/hero-image.jpg");
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.products {
+
+    &__available {
+
+        &-text {
+            padding: 3vh;
+            text-align: center;
+        }
+    }
+
+    &__avaiable--logos {
+        background-color: var(--blue);
+
+        display: grid;
+        grid-template-columns: repeat(3, min-content);
+        justify-items: center;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    &__avaiable__logo>img {
+        height: 3vh;
+        width: auto;
+    }
+}
+
+.bestsellers {}
+
+.testimonials {
+    background-color: var(--green-light);
+}
+
+.customers {}
+
+.customer {
+    &__images {
+        width: 10rem;
+        height: 10rem;
+        overflow: hidden;
+        object-fit:cover;
+        border-radius: 50%;
+    }
+
+    &__image {
+        height: 100%;
+        width: auto;
+    }
+}

@@ -1,5 +1,19 @@
-body {
-  box-sizing: border-box; }
+:root {
+  --font-header: 'Roboto Condensed', sans-serif;
+  --font-paragraph: 'Cabin', sans-serif; }
+
+:root {
+  --font-paragraph: 'Cabin', sans-serif;
+  --font-header: 'Roboto Condensed', sans-serif;
+  --yellow: #FDA804;
+  --green: #324932;
+  --white: #F1F1F1;
+  --green-light: #DDE3DD;
+  --blue: #021D3C; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
 
 *,
 *::after,
@@ -8,5 +22,64 @@ body {
   padding: 0;
   box-sizing: inherit; }
 
-html {
-  font-size: 62.5%; }
+body {
+  font-family: var(--font-paragraph); }
+
+.heading {
+  font-family: var(--font-header);
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.heading-1 {
+  font-size: 4rem; }
+
+.heading-2 {
+  font-size: 3rem; }
+
+.heading-3 {
+  font-size: 2.5rem; }
+
+body {
+  background-color: #F1F1F1; }
+
+.header {
+  background-image: linear-gradient(to right, rgba(50, 73, 50, 0.4), rgba(50, 73, 50, 0.4)), url("../../Images/hero-image.jpg");
+  height: 90vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center; }
+
+.products__available-text {
+  padding: 3vh;
+  text-align: center; }
+
+.products__avaiable--logos {
+  background-color: var(--blue);
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  justify-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem; }
+
+.products__avaiable__logo > img {
+  height: 3vh;
+  width: auto; }
+
+.testimonials {
+  background-color: var(--green-light); }
+
+.customer__images {
+  width: 10rem;
+  height: 10rem;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 50%; }
+
+.customer__image {
+  height: 100%;
+  width: auto; }
+
+.btn {
+  background-color: #FDA804;
+  border: none; }
