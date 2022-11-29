@@ -7,14 +7,16 @@
 .heading-1 {
     @extend .heading;
     font-size: 4rem;
+    color: var(--white);
 }
 
 .heading-2 {
     @extend .heading;
     font-size: 2.5rem;
+    color: var(--blue);
 }
 
 .heading-3 {
     @extend .heading;
-    font-size:2rem;
+    font-size:1.8rem;
 }
