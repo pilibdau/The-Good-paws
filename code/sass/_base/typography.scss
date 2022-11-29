@@ -12,10 +12,6 @@
     @media only screen and (min-width: $bp-tablet){
         font-size: 6rem;
     }
-
-    @media only screen and (min-width: $bp-desktop){
-        font-size: 8rem;
-    }
 }
 
 .heading-2 {
@@ -28,7 +24,7 @@
     }
 
     @media only screen and (min-width: $bp-desktop){
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 }
 

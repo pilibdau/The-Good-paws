@@ -18,18 +18,15 @@ body {
     justify-items: center;
 
     @media screen and (min-width: $bp-desktop) {
-        grid-template-columns: 30vw 1fr;
+        grid-template-columns: 40vw 1fr;
         justify-items: left;
+        text-align: left;
 
         &__logo {
             grid-column: 1/2 ;
         }
 
         &__text {
-            grid-column: 1/2 ;
-        }
-
-        &__cta-text {
             grid-column: 1/2 ;
         }
 
@@ -47,6 +44,11 @@ body {
         font-weight: 300;
         margin: 2vw;
         text-transform: uppercase;
+
+        @media screen and (min-width: $bp-desktop) {
+            grid-column: 1 / 2;
+            margin: 2.5rem 0 1rem 0;
+        }
     }
 
     &__btn {
