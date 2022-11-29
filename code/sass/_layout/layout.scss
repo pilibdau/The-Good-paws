@@ -58,9 +58,8 @@ body {
     &--text {
         text-align:left;
         margin-bottom: 1rem;
-        font-size: 1.4rem;
         padding: 1rem 0;
-        line-height: 1.5;
+
     }
 
     .btn {
@@ -84,6 +83,19 @@ body {
 
 .testimonials {
     background-color: var(--green-light);
+
+
+    &__heading {
+        padding: 2rem;
+        padding-top: 4rem;
+        text-align: center;
+    }
+}
+
+.customers {
+    display: grid;
+
+    margin: 2rem 4rem;
 }
 
 .customer {
@@ -126,6 +138,8 @@ body {
         }
     }
 
+
+
 }
 
 .localsource {
@@ -159,7 +173,7 @@ body {
 
 
         img {
-            width: 15vw;
+            width: 20vw;
         }
     }
 }
@@ -173,7 +187,7 @@ body {
 
         padding: 3rem;
         list-style-type: none;
-        font-size: 1.6rem;
+
     }
 
 
@@ -189,6 +203,7 @@ body {
         background-color: var(--green-light);
         padding: 2rem 6rem;
 
+        font-size: 1.2rem;
         text-align: center;
         color: var(--green);
     }

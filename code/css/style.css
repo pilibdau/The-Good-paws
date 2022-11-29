@@ -23,9 +23,11 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: var(--font-paragraph); }
+  font-family: var(--font-paragraph);
+  font-size: 1.4rem;
+  line-height: 1.5; }
 
-.heading, .footer__link:link, .footer__link:visited, .btn {
+.heading, .heading-1, .heading-2, .heading-3, .footer__link:link, .footer__link:visited, .btn {
   font-family: var(--font-header);
   font-weight: 700;
   text-transform: uppercase; }
@@ -80,9 +82,7 @@ body {
   .products__details--text {
     text-align: left;
     margin-bottom: 1rem;
-    font-size: 1.4rem;
-    padding: 1rem 0;
-    line-height: 1.5; }
+    padding: 1rem 0; }
   .products__details .btn {
     width: 100%; }
   .products__details--logo {
@@ -96,6 +96,14 @@ body {
 
 .testimonials {
   background-color: var(--green-light); }
+  .testimonials__heading {
+    padding: 2rem;
+    padding-top: 4rem;
+    text-align: center; }
+
+.customers {
+  display: grid;
+  margin: 2rem 4rem; }
 
 .customer__images {
   width: 10rem;
@@ -148,14 +156,13 @@ body {
     justify-content: space-evenly;
     justify-items: center; }
     .connect__logos img {
-      width: 15vw; }
+      width: 20vw; }
 
 .footer__links {
   display: flex;
   justify-content: space-around;
   padding: 3rem;
-  list-style-type: none;
-  font-size: 1.6rem; }
+  list-style-type: none; }
 
 .footer__link:link, .footer__link:visited {
   color: var(--green);
@@ -164,6 +171,7 @@ body {
 .footer p {
   background-color: var(--green-light);
   padding: 2rem 6rem;
+  font-size: 1.2rem;
   text-align: center;
   color: var(--green); }
 
