@@ -72,7 +72,7 @@ body {
   background-color: #F1F1F1; }
 
 .header {
-  background-image: linear-gradient(to right, rgba(50, 73, 50, 0.4), rgba(50, 73, 50, 0.4)), url("../../Images/hero-image.jpg");
+  background-image: linear-gradient(to right, rgba(50, 73, 50, 0.4), rgba(50, 73, 50, 0.4)), url("../Images/hero-image.jpg");
   height: 90vh;
   width: 100vw;
   background-size: cover;
@@ -216,7 +216,7 @@ body {
   font-style: italic; }
 
 .localsource {
-  background-image: linear-gradient(to right, rgba(2, 29, 60, 0.5), rgba(2, 29, 60, 0.5)), url("../../Images/farm.jpg");
+  background-image: linear-gradient(to right, rgba(2, 29, 60, 0.5), rgba(2, 29, 60, 0.5)), url("../Images/farm.jpg");
   height: 85vh;
   width: 100vw;
   background-size: cover;
