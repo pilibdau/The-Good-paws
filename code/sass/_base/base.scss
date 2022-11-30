@@ -15,10 +15,15 @@
 //=========== screen breakpoints ============//
 $bp-tablet: 51.25em; // 820 / 16 = 51.25
 $bp-desktop: 75em; //1200 / 16 = 75
+$bp-desktop-large: 93.75em; //1500 = 93.75
 
 html {
     box-sizing: border-box;
     font-size: 62.5%;//1rem = 10px
+
+    @media only screen and (min-width: $bp-desktop-large){
+        font-size: 87.5%;//1rem = 14px
+    }
 }
 
 
@@ -41,6 +46,6 @@ body {
     }
 
     @media only screen and (min-width: $bp-desktop){
-        font-size: 2.2rem;
+        font-size: 2.2zrem;
     }
 }

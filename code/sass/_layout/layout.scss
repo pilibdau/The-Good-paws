@@ -92,13 +92,13 @@ body {
         grid-template-columns: repeat(3, min-content);
         justify-items: center;
         justify-content: space-evenly;
+        align-content: center;
         align-items: center;
         padding: 2rem;
     }
 
     &__avaiable__logo>img {
         height: 3vh;
-        width: auto;
     }
 }
 
@@ -241,10 +241,29 @@ body {
 
     color: var(--white);
 
+    @media only screen and (min-width: $bp-desktop){
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: left;
+    }
+
     &__heading {
         margin-top: 8rem;
         color: var(--white);
+
+        @media only screen and (min-width: $bp-desktop){
+            grid-column: 1/2;
+        }
     }
+
+    &__text {
+
+        @media only screen and (min-width: $bp-desktop){
+            grid-column: 1/2;
+        }
+    }
+
+
+
 
     &__logos {
         display: grid;
@@ -257,6 +276,10 @@ body {
         align-content:flex-end;
         justify-items: center;
         justify-content: space-between;
+
+        @media only screen and (min-width: $bp-desktop){
+            grid-column: 1/2;
+        }
     }
 
     &__logo--vertical {
@@ -265,6 +288,10 @@ body {
         @media only screen and (min-width: $bp-tablet){
             width: 8rem;
         }
+
+        @media only screen and (min-width: $bp-desktop){
+            width: 12rem;
+        }
     }
 
     &__logo--horizontal {
@@ -272,6 +299,10 @@ body {
 
         @media only screen and (min-width: $bp-tablet){
             height: 6rem;
+        }
+
+        @media only screen and (min-width: $bp-desktop){
+            height: 10rem;
         }
     }
 }

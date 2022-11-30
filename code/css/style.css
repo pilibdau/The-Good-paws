@@ -14,6 +14,9 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+  @media only screen and (min-width: 93.75em) {
+    html {
+      font-size: 87.5%; } }
 
 *,
 *::after,
@@ -32,7 +35,7 @@ body {
       font-size: 2rem; } }
   @media only screen and (min-width: 75em) {
     body {
-      font-size: 2.2rem; } }
+      font-size: 2.2zrem; } }
 
 .heading, .heading-1, .heading-2, .customer__name, .footer__link:link, .footer__link:visited, .btn {
   font-family: var(--font-header);
@@ -126,12 +129,12 @@ body {
   grid-template-columns: repeat(3, min-content);
   justify-items: center;
   justify-content: space-evenly;
+  align-content: center;
   align-items: center;
   padding: 2rem; }
 
 .products__avaiable__logo > img {
-  height: 3vh;
-  width: auto; }
+  height: 3vh; }
 
 .products__details {
   display: grid;
@@ -226,9 +229,19 @@ body {
   justify-items: center;
   padding: 8vw 8vw 2vw 8vw;
   color: var(--white); }
+  @media only screen and (min-width: 75em) {
+    .localsource {
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: left; } }
   .localsource__heading {
     margin-top: 8rem;
     color: var(--white); }
+    @media only screen and (min-width: 75em) {
+      .localsource__heading {
+        grid-column: 1/2; } }
+  @media only screen and (min-width: 75em) {
+    .localsource__text {
+      grid-column: 1/2; } }
   .localsource__logos {
     display: grid;
     width: 100%;
@@ -240,16 +253,25 @@ body {
     align-content: flex-end;
     justify-items: center;
     justify-content: space-between; }
+    @media only screen and (min-width: 75em) {
+      .localsource__logos {
+        grid-column: 1/2; } }
   .localsource__logo--vertical {
     width: 5rem; }
     @media only screen and (min-width: 51.25em) {
       .localsource__logo--vertical {
         width: 8rem; } }
+    @media only screen and (min-width: 75em) {
+      .localsource__logo--vertical {
+        width: 12rem; } }
   .localsource__logo--horizontal {
     height: 4rem; }
     @media only screen and (min-width: 51.25em) {
       .localsource__logo--horizontal {
         height: 6rem; } }
+    @media only screen and (min-width: 75em) {
+      .localsource__logo--horizontal {
+        height: 10rem; } }
 
 .connect {
   background-color: var(--green);
